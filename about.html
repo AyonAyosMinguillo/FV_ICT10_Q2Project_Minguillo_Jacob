@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Tiny5:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>About the Creator</title>
+    
+    <style>
+        h1 {
+            color: rgb(82, 107, 245);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        body {
+            margin: 0; min-height: 100vh;
+            display: flex; flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            text-align: center; font-family: "Jersey 20", sans-serif;
+            padding: 20px;
+        }
+        .bluenavbar {
+            background: #ffffff;
+            border: 3px solid rgb(82, 107, 245); border-radius: 15px; box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
+            padding: 10px 20px;
+            display: flex; gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .bluenavbar a {
+            text-decoration: none;
+            color: rgb(82, 107, 245);
+            font-size: 18px;
+            padding: 6px 16px; border-radius: 10px; border: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+        .bluenavbar a.active {
+            background-color: rgb(82, 107, 245);
+            color: #ffffff;
+        }
+        .bigcenterednabox {
+            width: 100%; max-width: 1000px;
+            background: #ffffff;
+            border: 3px solid rgb(82, 107, 245); border-radius: 15px;
+            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+            padding: 35px; margin: auto;
+        }
+        .informationbox {
+            border: 3px solid rgb(82, 107, 245);
+            box-shadow: 0px 5px 15px rgba(200, 200, 200, 0.5);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #f8f9ff;
+            font-size: 20px;
+            text-align: left;
+        }
+        .property-row {
+            margin-bottom: 10px;
+        }
+        .property-label {
+            font-weight: 600;
+            color: rgb(82, 107, 245);
+        }
+        .profile-pic {
+            width: 140px; height: 140px;
+            border-radius: 50%; border: 3px solid rgb(57, 74, 173);
+            object-fit: cover;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+            margin: 15px auto; display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="bluenavbar">
+        <a href="index.html">Seatwork 1</a>
+        <a href="drill2.html">Drill 2</a>
+        <a href="skillstest.html">Skills Test</a>
+        <a href="about.html" class="active">About the Creator</a>
+    </nav>
+
+    <div class="bigcenterednabox">
+        <h1>Learn About me!</h1>
+        <div class="informationbox">
+             <img src="photograph.jpg" alt="pfp" class="profile-pic">
+            <div class="property-row"><span class="property-label">Name:</span> Jacob Eon Camacho Minguillo</div>
+            <div class="property-row"><span class="property-label">Grade and Section:</span> Grade 10 - Emerald</div>
+            <div class="property-row"><span class="property-label">Hobbies:</span> Volleyball, Sleeping, Doomscrolling, and Living</div>
+            <div class="property-row"><span class="property-label">Interests:</span> The life of Christ, Volleyball, Coding, and Military Science</div>
+            <div class="property-row"><span class="property-label">Dreams and Aspirations:</span> be so good as an IT that the company wont replace me with an AI :D</div>
+            <div class="property-row mb-0"><span class="property-label">Favorite Quote:</span> "You will see."</div>
+            <br>
+            <h2>Other Things About Me</h2>
+            <div class="property-row mb-0"><span class="property-label">Currently as:</span> <span class="property-value">Ministry Formator and Master of Ceremonies of Santuario di San Paolo, Casa Milan</span></div>
+            <div class="property-row mb-0"><span class="property-label">Club:</span> <span class="property-value">Cadet Officer Candidate Course</span></div>
+            <div class="property-row mb-0"><span class="property-label">Cadet Rank:</span> <span class="property-value">Cadet Captain - Fairview Battalion Commander</span></div>
+        </div>
+    </div>
+
+</body>
+</html>
